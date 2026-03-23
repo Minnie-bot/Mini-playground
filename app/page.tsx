@@ -22,7 +22,7 @@ const appEntries: AppEntry[] = [
     status: "In Progress",
     summary: "A proposal experience for presenting home repair scope, pricing, and upgrades.",
     type: "Nested app",
-    href: "/ehc-proposal-ui",
+    href: "https://ehc-proposal-ui.vercel.app/ehc-proposal-ui",
   },
   {
     name: "Next Slot",

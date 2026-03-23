@@ -1,9 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    {
-      "source": "/ehc-proposal-ui/:path*",
-      "destination": "https://ehc-proposal-ui.vercel.app/ehc-proposal-ui/:path*"
-    }
-  ]
-}

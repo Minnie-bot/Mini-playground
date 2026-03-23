@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/ehc-proposal-ui/:path*",
-      "destination": "https://ehc-proposal-ehbcws1q9-minnie-3192s-projects.vercel.app/ehc-proposal-ui/:path*"
+      "destination": "https://ehc-proposal-ui.vercel.app/ehc-proposal-ui/:path*"
     }
   ]
 }

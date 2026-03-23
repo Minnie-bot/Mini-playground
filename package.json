@@ -1,6 +1,6 @@
 {
   "name": "mini-playground",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,5 +11,11 @@
     "next": "16.2.0",
     "react": "19.2.0",
     "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
   }
 }

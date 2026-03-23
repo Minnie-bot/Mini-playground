@@ -1,0 +1,120 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FA7BA"/>
+      <stop offset="0.38" stop-color="#5B7387"/>
+      <stop offset="1" stop-color="#203140"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="800" y1="130" x2="800" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7F4FF" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#E7F4FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="800" y1="570" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3E5044"/>
+      <stop offset="1" stop-color="#17211B"/>
+    </linearGradient>
+    <linearGradient id="driveway" x1="862" y1="598" x2="894" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#847F77"/>
+      <stop offset="1" stop-color="#504C47"/>
+    </linearGradient>
+    <linearGradient id="concrete" x1="858" y1="84" x2="858" y2="751" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4C3BE"/>
+      <stop offset="1" stop-color="#8D8C87"/>
+    </linearGradient>
+    <linearGradient id="charcoal" x1="905" y1="113" x2="905" y2="702" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#383B3F"/>
+      <stop offset="1" stop-color="#171B1E"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="333" y1="96" x2="1286" y2="591" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C4E3C"/>
+      <stop offset="0.56" stop-color="#4B3529"/>
+      <stop offset="1" stop-color="#241B16"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="304" y1="198" x2="734" y2="581" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CB8D4" stop-opacity="0.88"/>
+      <stop offset="0.44" stop-color="#4D6E82" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#132330" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="warmGlow" x1="733" y1="543" x2="733" y2="744" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E4BE" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#A67E4A" stop-opacity="0.22"/>
+    </linearGradient>
+    <radialGradient id="poolGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1037 716) rotate(90) scale(70 240)">
+      <stop stop-color="#76D1FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#76D1FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 450) rotate(90) scale(560 920)">
+      <stop stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.28"/>
+    </radialGradient>
+    <filter id="blur" x="-50" y="-50" width="1700" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#haze)"/>
+  <rect y="578" width="1600" height="322" fill="url(#ground)"/>
+
+  <path d="M111 900C151 785 188 716 242 656C320 568 428 532 536 543C643 553 729 621 840 620C979 618 1060 523 1197 524C1302 524 1391 577 1469 665C1516 718 1552 786 1591 900H111Z" fill="#223027" fill-opacity="0.6"/>
+  <path d="M168 900C217 805 247 754 291 710C365 637 464 614 552 621C652 629 744 686 849 684C982 681 1076 600 1202 602C1311 604 1409 665 1486 742C1524 779 1553 822 1582 900H168Z" fill="#4B6355" fill-opacity="0.34"/>
+
+  <path d="M679 900L821 610H1049L1193 900H679Z" fill="url(#driveway)"/>
+  <rect x="252" y="79" width="186" height="548" rx="4" fill="url(#concrete)"/>
+  <rect x="292" y="99" width="1067" height="44" fill="url(#wood)"/>
+  <rect x="332" y="117" width="962" height="585" rx="12" fill="url(#charcoal)"/>
+  <rect x="355" y="140" width="224" height="506" fill="#151A1C"/>
+  <rect x="378" y="165" width="176" height="456" rx="4" fill="url(#glass)"/>
+  <rect x="582" y="165" width="150" height="456" rx="4" fill="#1E292F"/>
+  <rect x="560" y="158" width="12" height="470" fill="#11181D"/>
+  <rect x="378" y="384" width="354" height="10" fill="#10171B"/>
+
+  <rect x="761" y="182" width="377" height="255" rx="16" fill="#2B2D30"/>
+  <g opacity="0.82">
+    <rect x="789" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="826" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="863" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="900" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="937" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="974" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="1011" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="1048" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="1085" y="205" width="12" height="209" fill="#45484B"/>
+    <rect x="761" y="229" width="377" height="7" fill="#646869"/>
+    <rect x="761" y="262" width="377" height="7" fill="#646869"/>
+    <rect x="761" y="295" width="377" height="7" fill="#646869"/>
+    <rect x="761" y="328" width="377" height="7" fill="#646869"/>
+    <rect x="761" y="361" width="377" height="7" fill="#646869"/>
+    <rect x="761" y="394" width="377" height="7" fill="#646869"/>
+  </g>
+
+  <rect x="1162" y="200" width="116" height="330" rx="4" fill="#1B262C"/>
+  <rect x="1174" y="214" width="92" height="302" rx="4" fill="url(#glass)"/>
+  <rect x="333" y="449" width="962" height="24" fill="#1A2227"/>
+  <rect x="333" y="473" width="962" height="228" fill="#222827"/>
+
+  <rect x="734" y="445" width="220" height="32" fill="#2A2E30"/>
+  <rect x="734" y="490" width="228" height="156" fill="url(#warmGlow)"/>
+  <rect x="983" y="447" width="184" height="28" fill="#202526"/>
+  <rect x="983" y="490" width="184" height="156" fill="#333937"/>
+  <rect x="1188" y="447" width="88" height="255" fill="#181F22"/>
+  <rect x="850" y="182" width="44" height="263" fill="#3A3E40"/>
+  <rect x="860" y="446" width="24" height="255" fill="#505352"/>
+
+  <rect x="912" y="703" width="318" height="24" rx="12" fill="#2A343A"/>
+  <rect x="944" y="728" width="258" height="10" rx="5" fill="#3E4B53"/>
+  <rect x="882" y="690" width="382" height="56" rx="28" fill="url(#poolGlow)"/>
+
+  <g filter="url(#blur)" opacity="0.18">
+    <circle cx="104" cy="279" r="100" fill="#2E4936"/>
+    <circle cx="1431" cy="170" r="92" fill="#426149"/>
+    <circle cx="1493" cy="381" r="112" fill="#2D4635"/>
+  </g>
+
+  <path d="M69 585C121 463 153 388 195 331C234 277 279 222 334 178L310 130C248 171 196 227 153 290C111 352 79 423 31 559L69 585Z" fill="#1F3226"/>
+  <path d="M103 594C171 511 215 468 262 429C313 387 373 353 448 323L437 281C361 302 293 334 234 381C182 422 133 474 67 566L103 594Z" fill="#3F5940"/>
+  <path d="M1456 577C1384 494 1337 450 1287 410C1230 365 1173 333 1092 301L1104 257C1182 282 1256 317 1323 366C1380 407 1431 460 1493 548L1456 577Z" fill="#223526"/>
+  <path d="M1530 592C1487 473 1451 391 1413 327C1376 267 1332 212 1276 165L1304 125C1364 166 1412 222 1452 286C1492 350 1524 427 1568 561L1530 592Z" fill="#3B5540"/>
+
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>

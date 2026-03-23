@@ -1,1 +1,14 @@
+# Root workspace ignores
+/node_modules
+/.next
+/out
+/build
+/coverage
+
+# Common local clutter
+.DS_Store
+*.log
+.env*
+
+# Keep existing project-specific ignore
 EHC Proposal/.github/copilot-instructions.md

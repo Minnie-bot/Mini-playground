@@ -6,7 +6,6 @@
   --ink-soft: rgba(23, 18, 14, 0.72);
   --line: rgba(23, 18, 14, 0.12);
   --accent: #bf7f2f;
-  --accent-strong: #e2a54f;
   --max: 1120px;
 }
 
@@ -27,7 +26,7 @@ body {
     radial-gradient(circle at 18% 20%, rgba(226, 165, 79, 0.18), transparent 24%),
     radial-gradient(circle at 80% 14%, rgba(255, 255, 255, 0.44), transparent 20%),
     linear-gradient(180deg, #f8f4ed 0%, var(--bg) 58%, #ebe2d3 100%);
-  font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -114,7 +113,7 @@ a {
 
 h1,
 h2 {
-  font-family: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-weight: 700;
   letter-spacing: -0.06em;
 }
